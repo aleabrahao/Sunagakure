@@ -7,7 +7,7 @@ set username "USER"
 set password "PASS"
 set tftpip "TFTP_IP"
 
-spawn ssh -oHostKeyAlgorithms=+ssh-dss  $wlc
+spawn ssh $wlc
 
 #Including date file name
 

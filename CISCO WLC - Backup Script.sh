@@ -1,5 +1,12 @@
 
+Hello everyone,
 
+I am providing a script for those who do not have Cisco Prime and measures to automate the backup of Cisco WLC.
+In this script I am using expect and may need to install it.
+All tests were performed with Debian 9.
+I hope it helps you.
+
+#By Alessandro Abrahao
 #!/usr/bin/expect
 
 set wlc "WLC-IP"
@@ -9,7 +16,7 @@ set tftpip "TFTP_IP"
 
 spawn ssh $wlc
 
-#Including date file name
+#Including date in filename
 
 set tdate [clock format [clock seconds] -format %Y%m%d]
 set newName WLC_BKP_

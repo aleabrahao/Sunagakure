@@ -3,9 +3,9 @@
 declare tdate=`date +%Y%m%d_%H%M%S`
 
 #Host Remoto
-host="192.168.242.40"
-user="alessandro"
-passwd="ale2008"
+host="IP_DO_HOST"
+user="USUÁRIO"
+passwd="SENHA"
 file="*.tar.gz"
 
 #Diretórios
